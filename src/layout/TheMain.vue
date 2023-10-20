@@ -102,11 +102,15 @@
                
             </div>
         <TheForm v-if="isModalVisible" @close="closeModal"></TheForm>
+        <!-- <ToastMessenger></ToastMessenger> -->
+        <!-- <Combobox></Combobox> -->
     </div>
 </template>
 
 <script>
 import TheForm from '@/components/TheForm.vue';
+import ToastMessenger from '@/components/base/MToastMessenger.vue';
+import Combobox from '@/components/base/MCombobox.vue';
 /* eslint-disable */
 export default{
     name: "Table",
@@ -156,7 +160,7 @@ export default{
             this.items = data;
         });
     },
-    components: { TheForm }
+    components: { TheForm,ToastMessenger,Combobox}
 };
 </script>
 
