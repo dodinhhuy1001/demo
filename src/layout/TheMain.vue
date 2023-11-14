@@ -110,7 +110,7 @@
 <script>
 import TheForm from '@/components/TheForm.vue';
 import ToastMessenger from '@/components/base/MToastMessenger.vue';
-import Combobox from '@/components/base/MCombobox.vue';
+// import Combobox from '@/components/base/MCombobox.vue';
 /* eslint-disable */
 export default{
     name: "Table",
@@ -160,7 +160,7 @@ export default{
             this.items = data;
         });
     },
-    components: { TheForm,ToastMessenger,Combobox}
+    components: { TheForm,ToastMessenger}
 };
 </script>
 

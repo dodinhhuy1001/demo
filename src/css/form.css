@@ -16,7 +16,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 75vw;
-    height: 90vh;
+    height: 93vh;
     background-color: #fff;
     border-radius: 4px;
     padding: 8px 25px;
@@ -65,10 +65,10 @@
 /* content */
 .form-content {
     /* width: ; */
-    height: 70vh;
+    height: 75vh;
     padding: 20px 0 12px 0;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
 }
 
 .form-content__top {
@@ -199,7 +199,7 @@
 
 .text-field__input {
     background: #ffffff;
-    height: 36px;
+    height: 27px;
     /* min-width: 250px; */
     /* width: 250px; */
     font-size: 14px;

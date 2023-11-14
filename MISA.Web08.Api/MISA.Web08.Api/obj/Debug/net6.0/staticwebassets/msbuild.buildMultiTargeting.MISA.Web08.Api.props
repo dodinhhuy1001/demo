@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MISA.Web08.Api.props" />
+</Project>
